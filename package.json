@@ -1,0 +1,30 @@
+{
+  "name": "time-mcp-server",
+  "version": "1.0.0",
+  "description": "A minimal MCP server that provides current time functionality",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "time-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "time",
+    "server"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
